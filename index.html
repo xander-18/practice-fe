@@ -1,24 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <meta name="description" content="Perfil profesional de Xander - Desarrollador Fullstack">
+    <title>Xander | Desarrollador Fullstack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
 </head>
-<!-- <style>
-    img.profile {
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        border: 5px solid #000;
-    } 
-</style> -->
 <body>
-    <h1>Welcome , Profile of Xander</h1>
-    <div class="profile-container">
-    <img src="face.jpg" alt="" class="profile">
-</div>
+    <header>
+        <h1>Perfil de Xander</h1>
+    </header>
+    
+    <main class="profile-container">
+        <div class="image-container">
+            <img src="assets/face.jpg" alt="Foto de Xander" class="profile">
+        </div>
+        
+        <div class="profile-content">
+            <p class="profile-text"></p>
+            <span class="cursor"></span>
+            
+            <div class="profile-footer">
+                <a href="#" class="social-link">LinkedIn</a>
+                <a href="#" class="social-link">GitHub</a>
+                <a href="#" class="social-link">Portafolio</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
-
