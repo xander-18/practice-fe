@@ -1,0 +1,16 @@
+img.profile {
+    border: 5px solid #fff;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+body {
+    background-color: #000000;
+}
+h1 {
+    color: #fff;
+    text-align: center;
+}
