@@ -1,5 +1,5 @@
 const textElement = document.querySelector('.profile-text');
-const textContent = "Desarrollador fullstack especializado en aplicaciones web y móviles multiplataforma. Creo soluciones eficientes y centradas en el usuario, siempre actualizado con las últimas tendencias y tecnologías del sector. Experto en JavaScript, React, Node.js y arquitecturas cloud.";
+const textContent = "Desarrollador fullstack especializado en aplicaciones web y móviles multiplataforma. Creo soluciones eficientes y centradas en el usuario, siempre actualizado con las últimas tendencias y tecnologías del sector.";
 let index = 0;
 
 function typeWriterEffect() {
